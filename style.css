@@ -48,6 +48,7 @@ main{
     margin-top: 10px;
     cursor: pointer;
     font-weight: 600;
+    background-color: #555555;
 }
 
 .add-item > button:hover{
@@ -68,4 +69,19 @@ main > ul > li{
     padding: 10px;
     text-align: left;
     color: #555555;
+    display: flex;
+    justify-content: space-between;
+}
+.del {
+   position: relative;
+   left: 50px;
+}
+
+button{
+    background-color: rgba(255, 0, 0, 0.431);
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: rgb(61, 60, 60);
 }
